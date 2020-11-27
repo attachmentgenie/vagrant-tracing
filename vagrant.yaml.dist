@@ -1,0 +1,28 @@
+---
+nodes:
+    - name: centos6
+      hostname: centos6.example.vagrant
+      box: bento/centos-6.10
+      ip: 192.168.42.42
+    - name: centos7
+      hostname: centos7.example.vagrant
+      box: bento/centos-7.6
+      ip: 192.168.42.43
+    - name: debian7
+      hostname: debian.example.vagrant
+      box: bento/debian-8.11
+      ip: 192.168.42.44
+    - name: debian8
+      hostname: debian.example.vagrant
+      box: bento/debian-9.6
+      ip: 192.168.42.45
+    - name: ubuntu1404
+      hostname: ubuntu1404.example.vagrant
+      box: bento/ubuntu-16.04
+      ip: 192.168.42.46
+    - name: ubuntu1604
+      hostname: ubuntu1604.example.vagrant
+      box: bento/ubuntu-18.04
+      ip: 192.168.42.47
+puppet_version: 6.4.2
+virtualbox_group: '/Vagrant/example'
