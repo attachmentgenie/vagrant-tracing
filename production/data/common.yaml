@@ -1,3 +1,5 @@
 ---
+classes:
+  - roles::tracing
 profiles::bootstrap::firewall: true
 profiles::bootstrap::firewall::ensure: stopped

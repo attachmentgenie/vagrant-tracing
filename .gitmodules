@@ -10,3 +10,30 @@
 [submodule "modules/firewall"]
 	path = production/modules/firewall
 	url = git@github.com:puppetlabs/puppetlabs-firewall.git
+[submodule "production/modules/tempo"]
+	path = production/modules/tempo
+	url = git@github.com:attachmentgenie/attachmentgenie-tempo.git
+[submodule "production/modules/grafana"]
+	path = production/modules/grafana
+	url = https://github.com/voxpupuli/puppet-grafana.git
+[submodule "production/modules/minio"]
+	path = production/modules/minio
+	url = https://github.com/kogitoapp/puppet-minio.git
+[submodule "production/modules/lvm"]
+	path = production/modules/lvm
+	url = https://github.com/puppetlabs/puppetlabs-lvm.git
+[submodule "production/modules/concat"]
+	path = production/modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "production/modules/systemd"]
+	path = production/modules/systemd
+	url = https://github.com/camptocamp/puppet-systemd.git
+[submodule "production/modules/promtail"]
+	path = production/modules/promtail
+	url = https://github.com/grafana/puppet-promtail.git
+[submodule "production/modules/archive"]
+	path = production/modules/archive
+	url = https://github.com/voxpupuli/puppet-archive.git
+[submodule "production/modules/nginx"]
+	path = production/modules/nginx
+	url = https://github.com/voxpupuli/puppet-nginx.git

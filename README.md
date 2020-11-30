@@ -1,4 +1,4 @@
-#  vagrant-example
+#  vagrant-tracing
 
 vagrant starter kit 
 
@@ -27,3 +27,11 @@ vagrant starter kit
 
 ### (G)UI interfaces
 
+## TLDR
+    
+    - name: minio
+      public_vhosts:
+        - http://minio.tracing.vagrant:9090 admin:supersecret
+    - name: tempo
+      public_vhosts:
+        - http://tempo.tracing.vagrant admin:secret
